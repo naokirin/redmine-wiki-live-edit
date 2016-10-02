@@ -7,9 +7,8 @@ if /redmine/.test(url) and (/\/edit$/.test(url) or /\/edit\?.+$/.test(url))
   do (document = this.document, xhr = new XMLHttpRequest()) ->
     styleSheet = document.createElement "style"
     inlineCSS  = ".jstEditor { overflow: hidden; }
-  #content_text, #preview { width: 49.5%; max-width: 50%; }
-  #content_text { box-sizing: border-box; position: relative; float: left; }
-  #preview { float: right; }
+  #content_text { box-sizing: border-box; position: relative; float: left; width: 29.5%; max-width: 30%; height: 89.5vh; max-height: 90vh; }
+  #preview { float: right; width: 69.5%; max-width: 70%; height: 89.5vh; max-height: 90vh; overflow: scroll; }
   #preview fieldset { margin-top: 0; }
   #preview legend { display: none; }"
 
