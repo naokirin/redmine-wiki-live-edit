@@ -148,7 +148,7 @@ if /redmine/.test(url) and (/\/edit$/.test(url) or /\/edit\?.+$/.test(url))
           else if checkBox1.checked and checkBox2.checked
             content_text.style.width = '29.5vw'
             content_text.style.display = 'block'
-            preview.style.width = 'calc(69.5vw - 48px)'
+            preview.style.width = 'calc(69.5vw - 52px)'
             preview.style.display = 'block'
           else
             preview.style.display = 'none'
@@ -168,7 +168,7 @@ if /redmine/.test(url) and (/\/edit$/.test(url) or /\/edit\?.+$/.test(url))
           else if checkBox2.checked and checkBox1.checked
             content_text.style.width = '29.5vw'
             content_text.style.display = 'block'
-            preview.style.width = 'calc(69.5vw - 48px)'
+            preview.style.width = 'calc(69.5vw - 52px)'
             preview.style.display = 'block'
           else
             preview.style.display = 'none'
